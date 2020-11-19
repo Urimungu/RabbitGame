@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : CharacterFunctions{
 
     private void Start(){
+        //Makes sure it can control the camera
         CanControlCamera = true;
     }
 

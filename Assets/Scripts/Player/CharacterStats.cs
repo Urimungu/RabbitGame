@@ -7,6 +7,7 @@ public class CharacterStats : MonoBehaviour{
     [SerializeField] protected float _groundCheckRayLength;
     [SerializeField] protected LayerMask _groundMask;
 
+
     [Header("Movement")]
     [SerializeField] protected bool _canMove;
 
